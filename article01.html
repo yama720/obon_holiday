@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>詳細ページ</title>
+    <meta name="description" content="各詳細記事" />
+    <link rel="stylesheet" href="css/style.css" />
+      <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <div class="cover cover-home">
+      <header class="wrapper">
+        <h1 class="page-title">盆休み日記</h1>
+
+        <!-- ドロワーメニューのボタン -->
+      <button class="drawerButton" onclick="drawerButton()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="drawerMenu">
+        <ul>
+          <li><a href="#menu01">1日目</a></li>
+          <li><a href="#menu02">2日目</a></li>
+          <li><a href="#menu03">3日目</a></li>
+          <li><a href="#menu04">4日目</a></li>
+          <li><a href="#menu05">5日目</a></li>
+          <li><a href="#menu06">6日目</a></li>
+          <li><a href="#menu07">7日目</a></li>
+          <li><a href="#menu08">8日目</a></li>
+          <li><a href="#menu09">9日目</a></li>
+        </ul>
+      </nav>
+
+      </header>
+    </div>
+
+    <main class="wrapper">
+      <div class="diary-contents">
+        <div class="main-column">
+          <div id="menu01">
+            <article class="post" id="first-post">
+              <header>
+                <h2 class="post-title">お盆休み初日のお昼ご飯</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="食事">食事</a></li>
+                    <li><a href="#" data-category="お店の紹介">お店の紹介</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-09"
+                    >2025年8月9日 (土)</time>
+                </div>
+              </header>
+              <div class="post-wrapper">
+                <div class="post-image">
+                  <img
+                    class="post-thumbnail"
+                    src="images/fish01.jpg"
+                    alt="しんぱち食堂 ほっけ"
+                  />
+                </div>
+                <p>初日。お昼ご飯に「ほっけ定食 一尾」を食べた。</p>
+                <p>
+                  初めて入店したが、店内も綺麗で狭くもなく食事しやすかった。<br />
+                  また、注文はモバイル、お会計はセルフだったので店員さん待ちになる時間もなくとても快適だった。
+                </p>
+                <p>
+                  このお店は炭火焼干物食堂というコンセプトだそうで、どのメイン料理も炭火で焼いたものを提供しているらしい。<br />
+                  コンセプトにもある通りお店は魚料理を得意としているようだが、肉料理が全くないというわけではなさそうだった。<br />
+                  今回は魚料理を注文したが、次回は肉料理を頼んでみようかと思う。
+                </p>
+                <h4 class="store-name">しんぱち食堂</h4>
+                <div class="location-map">
+                  <div class="iframe-container">
+                  <iframe class="location-iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.03161640136426!2d135.1928302!3d34.6924188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008f5b37e99e3f%3A0x9b2f793d272c022f!2z44GX44KT44Gx44Gh6aOf5aCC56We5oi444K144Oz44OX44Op44K25bqX!5e0!3m2!1sja!2sjp!4v1755429954826!5m2!1sja!2sjp"
+                    width="320"
+                    height="320"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+              </article>
+          </div>
+          <div id="menu02">
+            <article class="post" id="second-post">
+              <header>
+                <h2 class="post-title">2日目は…</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="勉強">勉強</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-10"
+                    >2025年8月10日 (日)</time
+                  >
+                </div>
+              </header>
+              <div class="post-image">
+                <img class="post-thumbnail" src="images/car01.jpg" alt="教習" />
+              </div>
+              <p>車の免許がとりたくて、必死に通っている最中…。</p>
+              <p>
+                働き出してからだと勤務地や勤務時間も分からないし、絶対思うように時間が取れないと決めつけているので()　<br />
+                今のうちに取っておきたくてこの間から通いだした。
+              </p>
+              <p>
+                夏休み期間と被っていることもあり、この時期混んでいるようでなかなか枠がとれないながらもちまちまコツコツ回数をこなしていっている<br />
+                お盆期間1回目の車でした。
+              </p>
+            </article>
+          </div>
+          <div id="menu03">
+            <article class="post" id="third-post">
+              <header>
+                <h2 class="post-title">友人たちとオタ活</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="イベント">イベント</a></li>
+                    <li><a href="#" data-category="趣味">趣味</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-11"
+                    >2025年8月11日 (月)</time
+                  >
+                </div>
+              </header>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/utapri02.jpg"
+                  alt="ぬい撮り"
+                />
+              </div>
+              <p>
+                友人たちとオタ活に。<br />
+                写真はプリンスのぬいたちに混ぜてもらった私の推し(鳥の姿も含む)。<br>
+                今日遊んだ子たちは、定期的に集まっては自界隈の話題を持ち寄っては近況報告をしたりしてる。<br>
+                現在追っているコンテンツや界隈は違っているが、今回は「うたの☆プリンスさまっ♪」を中心にして遊んだ。 <br>
+                この日のメインは映画。
+              </p>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/utapri01.jpg"
+                  alt="タブナイ"
+                />
+              </div>
+              <p>
+               またアイドルたちに混ぜてもらう鳥の図w <br>
+               演出は良くなってるし、歌も上手くなってるし、何より歌詞が染みる…。 <br>
+               遥か昔、うたプリを追いかけていた時期もあったのでとても感慨深かった。あなたたちそんな成長してたのね…、、、
+              </p>
+              <h4 class="store-name">こちら映画の一部チラ見せ動画</h4>
+                     <div class="youtube-items">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5lPXtsYTtc?si=DiclI6t2mgzew1RP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <br>
+              <h4 class="store-name">公式サイト</h4>
+              <p>
+                <a href="https://taboonightxxxx.utapri-movie.com/" target="_blank">『 劇場版 うたの☆プリンスさまっ♪ TABOO NIGHT XXXX 』ページ</a>
+              </p>
+
+              <p></p>
+              <p>
+                  映画の前には、今一番ハマってるゲームの展示会？へ。  最終日に滑り込んできた。<br>
+                  今ゲーム内ではFateとコラボしてるのでストーリーで出てくるFateキャラ2名（セイバーとアーチャー）と、イベントストーリーでも一緒に活躍してるキャラとして推しも登場してるので同時に飾られてた。<br>
+            
+              </p>
+              <h4 class="store-name">崩壊：スターレイル×Fate stay night コラボ</h4>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/HonkaiStarRail_Fate01.jpg"
+                  alt="スターレイル01"
+                />
+              </div>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/HonkaiStarRail_panel02.jpg"
+                  alt="スターレイル02"
+                />
+              </div>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/HonkaiStarRail_panel01.jpg"
+                  alt="スターレイル03"
+                />
+              </div>
+                     <h4 class="store-name">こちらコラボPV</h4>
+                     <div class="youtube-items">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/oPhbGKCPBJo?si=L8g42RARCg3u5Ids" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <p>折角なので、公式YouTubeチャンネルから動画を拝借</p>
+              <p>そしてそして、こちらも折角なので推しのパネルを紹介</p>
+              <h4 class="store-name">推し</h4>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/aventurine02.jpg"
+                  alt="アベンチュリン01"
+                />
+              </div>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/aventurine01.jpg"
+                  alt="アベンチュリン02"
+                />
+              </div>
+            </article>
+          </div>
+
+          <div id="menu04">
+            <article class="post" id="fourth-post">
+              <header>
+                <h2 class="post-title">Flex Box</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="勉強">勉強</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-12"
+                    >2025年8月12日 (火)</time
+                  >
+                </div>
+              </header>
+              <p>
+                今日は長時間ちゃんと勉強しようと決めてた日。<br />
+                特に用意できるような画像もないためさらっと書くが、Flexboxとは仲良くできる気がしない。
+              </p>
+              <p>
+                分かった気になってもすぐに？？？？？？？ってなるので、和解できる日は遠い。<br />
+                でも多分、こなした回数と慣れが一番の勉強なんだと思うので頑張っていきたい。
+              </p>
+            </article>
+          </div>
+          <div id="menu05">
+            <article class="post" id="fifth-post">
+              <header>
+                <h2 class="post-title">2回目の…</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="勉強">勉強</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-13"
+                    >2025年8月13日 (水)</time
+                  >
+                </div>
+              </header>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/car02.jpg"
+                  alt="教習2日目"
+                />
+              </div>
+              <p>
+                お盆休み2回目の教習…。 今日は無線という行程をやってきた。<br />
+                隣に教官が座らず、1人で黙々と覚えてきたコースを走る日。何か指示等があると、どこかから見ている教官がなんか言ってくるやつ。<br />
+                実はこの無線は3行程あるが、今回は2行程目。1行程目の時は隣に誰もいないことが初めてで、もしどこかに車体をぶつけてしまったらととても怖かったが、2回目になると早くも慣れた。
+              </p>
+              <p>適度に指示はあったが、今回も特に何も言われることなく終わった。安心。</p>
+            </article>
+          </div>
+
+          <div id="menu06">
+            <article class="post" id="sixth-post">
+              <header>
+                <h2 class="post-title">3回目！</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="勉強">勉強</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-14"
+                    >2025年8月14日 (木)</time
+                  >
+                </div>
+              </header>
+              <p>
+                お盆休み3回目の教習…。
+                今日は無線ではなく、普通によくある教習。そしてお盆休み中はこれで最後。<br />
+                教習所で写真撮るようなこと普通はないので、昨日までの写真は周りにいた人たちにバレないようにこっそり撮ってきたもの。
+                今日は人が多すぎて流石に無理だった。<br />
+              </p>
+              <p>
+                今日の教官は気さくな方だったので、気負うことなく楽しく終えることができた。<br />
+                どうしても相性というものがあるから仕方がないけど、ちょっと苦手かもしれないと思う教官にも早くも遭遇済。<br />
+                人を選んでかつ判断して申し訳ないが、今日の教官なら色々質問もできそうだと思ったので、ここぞとばかりに聞いてきた。有難い。<br>
+                こういうのは後になればなるほど聞きづらくなると勝手に思ってる。<br>
+                被害妄想がすぎるが、「え、今までどうやってたん？」とか「今更そんなこと聞く？」とか思われるだけならまだしも、言われたらダメージを負ってしまうw <br>
+                何でも今のうちに。
+              </p>
+            </article>
+          </div>
+
+          <div id="menu07">
+            <article class="post" id="seventh-post">
+              <header>
+                <h2 class="post-title">今日こそは</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="趣味">趣味</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-15"
+                    >2025年8月15日 (金)</time
+                  >
+                </div>
+              </header>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/Genshin03.png"
+                  alt="原神夏イベ"
+                />
+              </div>
+              <p>
+                今日は1日ゲームをすると決めていた日！！！！！ <br />
+                毎年恒例の夏イベントが開催されているにも関わらず、ずっと触れずにいたので腰を据えて遊びたいとずっと思っていた。
+                <br />
+                期間が設けられているなかでのイベント開催なので、タイムリミットが迫ってきており慌てながらなんとか最後までシナリオは読めた。こんなギリギリまでまったく触れずにいたことがなかったので、めちゃくちゃ焦った。　<br />
+                駆け足ではあったが、今年の夏も良い話だった。<br />
+                でも1つ言いたいことは、相変わらず重要な話を常設ではなく、イベントでする作品だなぁ…と。<br />
+                長年続けてきた作品なのもあって、特に読み逃しとかしたくないと思っていて、今回間に合ってなかったらスポッとある部分の重要なことを知らないことになっていたので結構ショックだったかもしれない。
+              </p>
+              <p>
+                最後のシーンというわけではないけど、全員揃ってる集合写真のほうが良いなと思ってこの写真にした。<br>
+                毎年エモーショナルな気分になって終わる。夏の思い出。
+              </p>
+            
+              <h4 class="store-name">原神</h4>
+              <div class="youtube-items">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/QYiW7Tx7k2A?si=hZRj9igH0Hr_Qvmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+             <p>折角なので、公式YouTubeチャンネルから動画を拝借</p>  
+                    </article>
+          </div>
+
+          <div id="menu08">
+            <article class="post" id="eighth-post">
+              <header>
+                <h2 class="post-title">神戸散策</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="食事">食事</a></li>
+                    <li><a href="#" data-category="お店の紹介">お店の紹介</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-16"
+                    >2025年8月16日 (土)</time
+                  >
+                </div>
+              </header>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/fish02.jpg"
+                  alt="うなぎ"
+                />
+              </div>
+              <p>
+                お昼はうなぎを食べた。<br />
+                自分はあまり好んでうなぎは食べないが、家族が好きなので今回食べに行った。
+                <br />
+                初めて行ったお店だったが、とても美味しかった。あまり好きじゃない自分が食べても、美味しいと思えた←重要<br />
+                この後は神戸を散策し、地元なのに乗ったことのないバスを使ったり、久々に訪れた場所だったりと、なんか新鮮なこといっぱいした。でもそもそもインドアな人間なので、めっちゃ疲れた。<br />
+                歩き回ったのもそうだけど、一番は気温。意味わからんくらい暑い。これ涼しかったらまた感想違った気がする。
+              </p>
+              <p>ご飯を食べた後は、港のほうへ移動。久々に神戸港見た。<br>
+                  今あちこちでミッフィーとコラボしているとのことで、顔を探した。
+              </p>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/Miffy01.jpg"
+                  alt="ミッフィー01"
+                />
+              </div>
+               <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/Miffy02.jpg"
+                  alt="ミッフィー02"
+                />
+              </div>
+               <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/Miffy03.jpg"
+                  alt="ミッフィー03"
+                />
+              </div>
+               <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/Miffy04.jpg"
+                  alt="ミッフィー04"
+                />
+              </div>
+              <p>めっちゃおる。そして可愛い。<br>
+              ついでにポートタワーも撮ってきた。最後に登ったのいつだったかなぁ。
+              </p>
+               <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/kobe01.jpg"
+                  alt="ポートタワー"
+                />
+              </div>
+              <p>次の目的地へ <br>
+              カフェ利用だけど、パン屋へ</p>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/cake01.jpg"
+                  alt="ルパン"
+                />
+              </div>
+              <div class="post-image">
+                <img
+                  class="post-thumbnail"
+                  src="images/cake02.jpg"
+                  alt="ケーキ"
+                />
+              </div>
+              <p>美味しすぎた。<br>
+              ほんとは4人で行ったけど、カトラリーを上手く避けれず3ケーキに…、無念。</p>
+              <h4 class="store-name">ル・パン総本店</h4>
+                <div class="location-map">
+                  <div class="iframe-container">
+                  <iframe class="location-iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1640.4224932826367!2d135.1906681805849!3d34.68386158360935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008f9152d0d3db%3A0xa4faa4fbc19ee3a5!2z44Os44K544OI44Op44Oz44Kr44OV44Kn44OG44Op44K5IOOCouODn-elnuaIuA!5e0!3m2!1sja!2sjp!4v1755433199553!5m2!1sja!2sjp"
+                    width="320"
+                    height="320"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div id="menu09">
+            <article class="post" id="nine-post">
+              <header>
+                <h2 class="post-title">最終日</h2>
+                <div class="post-info">
+                  <ul class="post-cat">
+                    <li><a href="#" data-category="勉強">勉強</a></li>
+                    <li><a href="#" data-category="趣味">趣味</a></li>
+                  </ul>
+                  <time class="post-date" datetime="2025-08-17"
+                    >2025年8月17日 (日)</time
+                  >
+                </div>
+              </header>
+              <div class="post-image">
+                <img class="post-thumbnail" src="images/grbl01.jpg" alt="クロロ" />
+              </div>
+              <p>
+                最終日。今日くらいはゆっくりしようと思う。<br />
+                明日からまた学校が始まるし、永遠の敵Flexboxの復習をしておかないと詰む。
+                とはいえ、ゲームもしないとあちこちイベントが終わる（結局追われてる件について）
+                <br />
+              </p>
+              <p>
+                写真や画像貼れるもの特にないなーと思ったけど、あった。グラブルのH×Hコラボ。<br />
+                コラボキャラだしな～と様子見してたけど、逃したらもう二度と手に入らないかもしれないと思い直してガチャった。<br />
+                 <br>
+                爆死した。 <br />
+                <br>
+                でもなんとかクロロはきた。だいぶ怪我したが……寧ろ重症だが仕方がない。 <br>
+                いらっしゃい、これからよろしく。<br />
+                そしてさよならだねクラピカよ……達者でな…
+              </p> <br>
+              
+              
+            <h4 class="store-name">グランブルーファンタジー公式サイト</h4>
+            <p>
+              <a href="https://granbluefantasy.jp/pages/?p=60891" target="_blank">グランブルーファンタジー×『HUNTER×HUNTER』コラボページ</a><br>
+            <br>
+              分かりやすい公式の動画も特にないので、コラボイベントの詳細を掲載してる公式サイトを引用</p>
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <h4 class="store-name">〜追記〜</h4><br>
+              <p> 
+                だいぶ怪我をしたのに何の成果も得られてない状況がどうしても嫌で、結局諦めきれずに行けるところまで引いてみた。 <br>
+                ら、引っ込みがつかなくなり……、、、 <br>
+                <div class="post-image">
+                  <img class="post-thumbnail" src="images/grbl02.jpg" alt="天井" />
+                </div>                
+                <h4 class="store-name">天井</h4>
+                <br>
+                <br>
+                <br>
+                …………泣いてもいいか？？？？？？？？ <br>
+                <br>
+                <br>
+                運が終わってるのはそうだけど、他の騎空士たちは？と気になり、Xで検索かけたら全然出てなかった。何なら殆どの人が天井コースだった……。みんな大怪我してた。 <br>
+                やっぱりコラボガチャの確率が低いせいだな（泣） <br>
+                コラボで貯めてた石を放出するつもりなかったのに、なんでこうなってしまったんだろうか……。
+                <br>
+                  <br>
+                  でも仲間に迎えれたのは嬉しい。これからよろしく。<br>
+                  <br>
+                <div class="post-image">
+                  <img class="post-thumbnail" src="images/grbl03.jpg" alt="クラピカ" />
+                </div>     
+              </p>
+            </article>
+          </div>
+
+          <div class="post-navigation">
+            <a href="index.html" class="btn">← トップページに戻る</a>
+          </div>
+        </div>
+
+        <aside class="sidebar">
+          <h3 class="heading-medium">Category</h3>
+          <ul class="side-menu">
+            <li><a href="#" data-category="all">全て表示</a></li>
+            <li><a href="#" data-category="食事">食事</a></li>
+            <li><a href="#" data-category="お店の紹介">お店の紹介</a></li>
+            <li><a href="#" data-category="趣味">趣味</a></li>
+            <li><a href="#" data-category="イベント">イベント</a></li>
+            <li><a href="#" data-category="勉強">勉強</a></li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <div class="copyright">
+        <small>&copy;&nbsp;2025 yamada</small>
+      </div>
+    </footer>
+    <a href="#" class="page-top" id="js-page-top">↑</a>
+    <script src="js/script.js"></script>
+  </body>
+</html>
