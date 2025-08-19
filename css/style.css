@@ -482,7 +482,7 @@ img {
 }
 
 .cover-home {
-  background-image: url(/images/backgraund.jpg);
+  background-image: url(../images/backgraund.jpg);
 }
 
 @media (width > 800px) {
